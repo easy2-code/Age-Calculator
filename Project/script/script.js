@@ -55,3 +55,7 @@ document.getElementById("resetBtn").addEventListener("click", function () {
   document.getElementById("year").value = "";
   document.getElementById("result").innerHTML = "Your age will appear here...";
 });
+
+document.getElementById("toggleDark").addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
+});
